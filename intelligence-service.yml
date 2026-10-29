@@ -11,7 +11,7 @@ spring:
 
   ai:
     openai:
-        api-key: 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
+        api-key: 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
         chat:
          options:
           model: gpt-5.4-2026-03-05
