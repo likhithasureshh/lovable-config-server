@@ -9,7 +9,7 @@ spring:
     password: password
     driver-class-name: org.postgresql.Driver
 
-    ai:
+  ai:
     openai:
         api-key: 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
         chat:
