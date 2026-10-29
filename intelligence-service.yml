@@ -10,12 +10,11 @@ spring:
     driver-class-name: org.postgresql.Driver
 
   ai:
+    model.chat: openai
     openai:
-      api-key: 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
+      api-key: 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
+      base-url: https://openrouter.ai/api
       chat:
         options:
-          model: gpt-5.4-2026-03-05
-          temperature: 0.0
-      embedding:
-        options:
-          model: qwen/qwen3-embedding-8b
+          model: nvidia/nemotron-3-embed-1b:free
+          temperature: 0.2
